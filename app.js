@@ -12,3 +12,7 @@ app.get("/", function(req, res) {
 app.get("/about", function(req, res) {
 	res.render("about");
 });
+
+app.listen(3005, function() {
+	console.log('Server listening on port 3005');
+});
